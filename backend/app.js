@@ -8,6 +8,7 @@ const paymentRoutes=require('./routes/payment')
 const mongoose=require('mongoose')
 const cors=require('cors')
 
+const path = require('path')
 
 const DBCONNECTIONSTRING="mongodb+srv://root:root@zomato-clone.xwuyg.mongodb.net/zomato";
 
